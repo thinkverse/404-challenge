@@ -13,10 +13,16 @@ body {
     padding: 1.1rem;
     justify-content: space-between;
     height: 100vh;
+    flex-wrap: non-wrap;
 }
 
 .flex-col {
     flex-direction: column;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
 }
 
 .top {
@@ -35,12 +41,27 @@ body {
     font-family: "Space Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-main > header {
+img {
+    max-width: 560px;
+    width: 100%;
+    height: auto;
+}
+
+.grid-img {
+    grid-row: 1;
+}
+
+figure {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+main header {
     font-size: 1.4rem;
     line-height: 4rem;
 }
 
-main > section {
+main section {
     font-size: 1.2rem;
     line-height: 1.8rem;
     letter-spacing: -0.05rem;
@@ -48,6 +69,7 @@ main > section {
 }
 
 main button {
+    margin-top: 1.4rem;
     background-color: #333333;
     border: 0px;
     padding: 1.6rem 2.2rem;
