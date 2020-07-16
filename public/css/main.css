@@ -68,13 +68,12 @@ main header {
 
 main section {
     font-size: 1.2rem;
-    line-height: 1.8rem;
-    letter-spacing: -0.05rem;
+    line-height: 1.9rem;
     color: #4F4F4F;
+    max-width: 80%;
 }
 
-main button {
-    margin-top: 1.4rem;
+main .button {
     background-color: #333333;
     border: 0px;
     padding: 1.6rem 2.2rem;
@@ -85,10 +84,12 @@ main button {
 }
 
 footer {
+    display: inline-block;
     font-family: Montserrat;
     font-size: 0.9rem;
     font-weight: 600;
     align-self: center;
+    margin-top: 4.4rem;
 }
 
 footer a {
@@ -104,6 +105,10 @@ footer a:focus {
 @media (min-width: 768px) {
     .flex {
         max-width: 100%;
+    }
+
+    main section {
+        min-width: 100%;
     }
 
     .grid {
@@ -129,5 +134,10 @@ footer a:focus {
 
     .grid-img {
         max-width: 740px;
+    }
+
+    main section {
+        min-width: 70%;
+        width: 60%;
     }
 }
