@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@600&family=Space+Mono:wght@400;700&display=swap');
 
+body {
+    color: #333333;
+}
+
 .font-sans {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .flex {
     display: flex;
-    padding: 1rem;
+    padding: 1.1rem;
 }
 
 .flex-col {
@@ -29,6 +33,18 @@
     font-family: "Space Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+main > header {
+    font-size: 1.4rem;
+    line-height: 4rem;
+}
+
+main > section {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    letter-spacing: -0.05rem;
+    color: #4F4F4F;
+}
+
 footer {
     font-family: Montserrat;
     font-size: 0.9rem;
@@ -36,7 +52,7 @@ footer {
 }
 
 footer a {
-    color: #000000;
+    color: #333333;
     text-decoration: none;
 }
 
