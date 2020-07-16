@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@600&family=Space+Mono:wght@400;700&display=swap');
 
 body {
+    background-color: #FFFFFF;
     color: #333333;
 }
 
@@ -79,8 +80,15 @@ main .button {
     padding: 1.6rem 2.2rem;
     color: #FFFFFF;
     text-transform: uppercase;
+    text-decoration: none;
     font-size: 0.8rem;
     font-style: normal;
+}
+
+main .button:hover,
+main .button:focus {
+    background-color: #434343;
+    border: none;
 }
 
 footer {
