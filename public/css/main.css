@@ -47,6 +47,16 @@ main > section {
     color: #4F4F4F;
 }
 
+main button {
+    background-color: #333333;
+    border: 0px;
+    padding: 1.6rem 2.2rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-style: normal;
+}
+
 footer {
     font-family: Montserrat;
     font-size: 0.9rem;
