@@ -49,6 +49,7 @@ footer {
     font-family: Montserrat;
     font-size: 0.9rem;
     font-weight: 600;
+    align-self: center;
 }
 
 footer a {
