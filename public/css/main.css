@@ -14,6 +14,10 @@ body {
     justify-content: space-between;
     height: 100vh;
     flex-wrap: non-wrap;
+
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
 }
 
 .flex-col {
@@ -48,6 +52,7 @@ img {
 }
 
 .grid-img {
+    text-align: center;
     grid-row: 1;
 }
 
@@ -94,4 +99,35 @@ footer a {
 footer a:hover,
 footer a:focus {
     border-bottom: 1px solid #000000;
+}
+
+@media (min-width: 768px) {
+    .flex {
+        max-width: 100%;
+    }
+
+    .grid {
+        grid-gap: 2rem;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+    }
+
+    .grid-img {
+        min-width: 140px;
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .flex {
+        max-width: 1024px;
+    }
+
+    .grid {
+        grid-gap: 4rem;
+    }
+
+    .grid-img {
+        max-width: 740px;
+    }
 }
